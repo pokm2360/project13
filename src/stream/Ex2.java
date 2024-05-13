@@ -9,7 +9,7 @@ public class Ex2 {
 
 	public static void main(String[] args) {
 		
-//		1.한 번 생성학 사용한 스트림은 재사용할 수 없다
+//		1.한 번 생성한 사용한 스트림은 재사용할 수 없다
 		List<Integer> list = Arrays.asList(5, 1, 2, 4, 3, 3);
 		Stream<Integer> stream = list.stream();
 //		forEach: 반복작업을 수행함
